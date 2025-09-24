@@ -70,3 +70,47 @@ This way, the app is still functional in a demo context, even if the real data c
    ```bash
    git clone https://github.com/marianodeanzorena-byte/Transit-app.git
    cd Transit-app
+
+2.- Install dependencies:
+
+pnpm install
+
+3.- Start the development server:
+
+pnpm run dev
+
+
+Open the link shown in terminal (usually http://localhost:5173/
+).
+
+
+Test Case
+
+Click “Load Latest Alerts”
+
+If RSS feed works → live detour alerts appear.
+
+If not → fallback alerts are shown.
+
+
+Reflection
+
+This project didn’t end up as a fully live transit-tracking app, but I learned:
+
+-How to work with APIs and RSS feeds in React
+
+-The challenges of CORS policies when fetching external data
+
+-How to organize code and use state to display lists dynamically
+
+-The importance of adapting when a first plan doesn’t work
+
+Even though a lot of the scaffolding came from AI, I actively contributed by:
+
+-Writing about 15–20% of the code myself
+
+-Adding detailed comments
+
+-Debugging when things broke
+
+-Adjusting the logic from API → RSS → fallback solution
