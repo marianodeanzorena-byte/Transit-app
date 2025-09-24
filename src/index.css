@@ -1,0 +1,44 @@
+/* general page styling */
+body {
+  font-family: Arial, sans-serif; /* cleaner font */
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* light gray background */
+}
+
+/* main header */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* button styling */
+button {
+  background: #0077ff; /* blue button */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+/* button hover effect */
+button:hover {
+  background: #005fcc;
+}
+
+/* list styling */
+ul {
+  list-style: none; /* remove bullet points */
+  padding: 0;
+}
+
+/* each alert box */
+li {
+  margin: 8px 0;
+  background: white;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* subtle shadow */
+}
